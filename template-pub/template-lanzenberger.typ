@@ -9,10 +9,10 @@
 
 // var
 #let title = "Protokoltitel"
-#let name = "Daubner Sebastian"
-#let class = "2BHIT"
-#let teacher = "Prof. Lanzenberger"
-#let fach = "SYT-GINF"
+#let name = "NAME"
+#let class = "class"
+#let teacher = "teacher"
+#let subject = "subject"
 
 // title page
 #align(center)[
@@ -22,7 +22,7 @@
   #text(size: 28pt, weight: "bold")[#title]
 
   #teacher #linebreak()
-  #fach
+  #subject
 
   
   #v(4cm)
